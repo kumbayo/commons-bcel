@@ -459,7 +459,7 @@ public class MethodGen extends FieldGenOrMethodGen {
     }
 
 
-    /*
+    /**
      * @return array of declared exception handlers
      */
     public CodeExceptionGen[] getExceptionHandlers() {
@@ -509,7 +509,7 @@ public class MethodGen extends FieldGenOrMethodGen {
     }
 
 
-    /*
+    /**
      * @return array of thrown exceptions
      */
     public String[] getExceptions() {
