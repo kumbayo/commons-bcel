@@ -452,7 +452,7 @@ public class MethodGen extends FieldGenOrMethodGen {
 
 
     /**
-     * Remove all line numbers.
+     * Remove all exception handlers.
      */
     public void removeExceptionHandlers() {
         exception_vec.clear();
